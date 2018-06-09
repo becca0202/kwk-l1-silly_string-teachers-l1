@@ -2,12 +2,6 @@ require 'spec_helper'
 
 describe "Silly Strings" do
 
-  it "contains your favorite word" do
-    your_favorite_word = get_variable_from_file('./silly_string.rb', 'your_favorite_word')
-    
-    expect(your_favorite_word).to be_a(String)
-    expect(your_favorite_word).to_not be_empty, "Did you put a String inside your_favorite_word?"
-  end
   
 
   
